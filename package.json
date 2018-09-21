@@ -1,0 +1,29 @@
+{
+  "name": "homebridge-blinds-xs-udp",
+  "version": "1.0.3",
+  "description": "A Homebridge plugin to control blinds - inspired by homebridge-blinds-udp by nitaybz",
+  "engines": {
+    "homebridge": ">=0.2.0",
+    "node": ">=0.12.0"
+  },
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/frigeni/homebridge-blinds-xs-udp#readme",
+  "keywords": [
+    "homebridge-plugin",
+    "homebridge-blinds",
+    "homebridge",
+    "blinds",
+    "udp"
+  ],
+  "author": "Frigeni",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frigeni/homebridge-blinds-xs-udp.git"
+  }
+}
