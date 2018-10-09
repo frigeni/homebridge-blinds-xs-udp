@@ -1,7 +1,7 @@
 {
   "name": "homebridge-blinds-xs-udp",
-  "version": "1.0.3",
-  "description": "A Homebridge plugin to control blinds - inspired by homebridge-blinds-udp by nitaybz",
+  "version": "1.0.5",
+  "description": "A Homebridge plugin to control blinds",
   "engines": {
     "homebridge": ">=0.2.0",
     "node": ">=0.12.0"

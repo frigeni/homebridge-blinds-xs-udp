@@ -94,6 +94,8 @@ BlindsUDPAccessory.prototype.getTargetPosition = function(callback) {
 BlindsUDPAccessory.prototype.setTargetPosition = function(pos, callback) {
     this.log("Set TargetPosition: %s", pos);
     this.currentTargetPosition = pos;
+    this.lastPosition = pos;
+    this.currentPositionState = 2;
 
         this.udpRequest(this.host, this.port,"A"+pos, function() {
         this.log("Success moving to "+pos);
